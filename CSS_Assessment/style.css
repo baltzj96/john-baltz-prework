@@ -1,0 +1,41 @@
+/*
+Allows user to include padding and border in an element's height
+*/
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    Line-height:1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: black;
+}
+header{
+    padding: 5px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    width:100%;
+    background: gray;
+}
+section{
+    padding: 215px;
+    margin: 0 0 220px 0;
+}
+#left{
+    float: left;
+    width: 50%;
+    background: blue;
+}
+#right{
+    float: right;
+    width: 25%;
+    background: red;
+}
+footer{
+    padding: 5px; 
+    clear: both;
+    margin-bottom: 0;
+    width: 100%;
+    background: green;
+}
